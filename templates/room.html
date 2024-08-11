@@ -83,8 +83,8 @@ setInterval(function(){
                 $("#display").append(temp);
             }
         },
-        error: function(response){
-            alert('An error occured')
+        {% comment %} error: function(response){
+            alert('An error occured') {% endcomment %}
         }
     });
 },1000);
